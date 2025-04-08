@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import SearchIcon from "@mui/icons-material/Search";
 
 import './App.css'
 
@@ -8,8 +9,11 @@ function App() {
   return (
     <>
       <h1>Netflix</h1>
+      <ul>
+        <li><SearchIcon/></li>
+      </ul>
     </>
-  )
+  );
 }
 
 export default App
